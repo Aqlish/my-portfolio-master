@@ -10,11 +10,13 @@ export default function Home() {
   return (
     <main>
       <h1 className="pl-[200px]">Hello Aqsa</h1>
+      <div  className="pl-[200px]">
       <Hero />
       <Project />
       <Contact />
       <Skills />
       <About />
+        <div/>
     </main>
   );
 }
