@@ -9,6 +9,7 @@ import Skills from "@/Components/Skills";
 export default function Home() {
   return (
     <main>
+      <h1 className="pl-[200px]">Hello Aqsa</h1>
       <Hero />
       <Project />
       <Contact />
